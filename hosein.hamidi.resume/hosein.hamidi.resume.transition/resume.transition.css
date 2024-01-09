@@ -1,0 +1,47 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 20px;
+}
+
+.right {
+    right: -20px;
+    top: 70px;
+}
+
+
+img {
+    border-radius: 10%;
+    transition: color 0.5s linear, width 2s linear, transform 1s ease-in-out 0s;
+}
+
+img:hover {
+    transform: scale(1.5,1.6);
+}
+
+
+h4 {
+	transition: color 0.5s linear, width 2s linear , background 1.5s linear , transform 1s ease-in-out 0s;
+}
+h4:hover {
+	color: green;
+}
+
+a {
+    background: lightcyan;
+    transition: color 0.5s linear, width 2s linear , background 1.5s linear , transform 1s ease-in-out 0s;
+}
+
+a:hover {
+    color: red;
+    background:palegreen;
+    transform: scale(1.2,1.2);
+}
